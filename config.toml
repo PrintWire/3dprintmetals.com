@@ -11,14 +11,14 @@ theme = "printwire-theme"
   fontPrimary    = "Orbitron"
   fontSecondary  = "Space Grotesk"
   fontURL        = "https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-  ogImage        = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&q=80"
+  ogImage    = "/images/hero.png"
   favicon        = "⚙️"
   pubmedQuery    = "metal+3D+printing+DMLS+additive+manufacturing+aerospace"
   contactEmail   = "maxdavisgroup@gmail.com"
   web3formsKey   = "6f33053b-6d08-414b-9615-665f88c98da8"
   xometryId      = "XOMETRY_AFFILIATE_ID"
   domain         = "3dprintmetals.com"
-  heroImage      = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=1200&q=80"
+  heroImage    = "/images/hero.png"
 
 [[params.stats]]
   number = "99.5%"
@@ -39,25 +39,25 @@ theme = "printwire-theme"
 [[params.services]]
   title = "DMLS Metal Parts"
   icon  = "◎"
-  image = "https://images.unsplash.com/photo-1685708716815-94c588417c27?w=600&q=80"
+  image       = "/images/app-aerospace.png"
   short = "Production DMLS in Ti6Al4V, 316L, 17-4 PH, AlSi10Mg, Inconel 718, CoCrMo. 99.5% density, ±0.003\" tolerance."
 
 [[params.services]]
   title = "Design for AM"
   icon  = "✦"
-  image = "https://images.unsplash.com/photo-1564564733489-4f90308b0f7f?w=600&q=80"
+  image       = "/images/app-medical.png"
   short = "Topology optimization, lattice design, support strategy, and DFM consultation for DMLS production."
 
 [[params.services]]
   title = "Post-Processing"
   icon  = "⚙"
-  image = "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&q=80"
+  image       = "/images/app-industrial.png"
   short = "Stress relief, HIP, CNC machining to ±0.001\", bead blast, electropolish, anodizing."
 
 [[params.services]]
   title = "Rapid Prototyping"
   icon  = "◈"
-  image = "https://images.unsplash.com/photo-1504473089979-b1c4993a9653?w=600&q=80"
+  image       = "/images/app-energy.png"
   short = "48-hour first article in production alloys. DMLS metal prototypes with full mechanical properties."
 
 [markup.goldmark.renderer]
